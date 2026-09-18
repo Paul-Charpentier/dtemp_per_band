@@ -14,8 +14,8 @@ resource.setrlimit(resource.RLIMIT_NOFILE, (4096, hard))
 ## Initialization ######################################################
 # The only part you have to modify unless you know what you are doing ;) 
 
-cwd = "/media/paulch/One Touch8/wapiti_workflow" #"/Volumes/dataDRS/spirou/lbl"
-outdir = cwd # Directory of output files
+cwd = "/Volumes/dataDRS/spirou/lbl"
+outdir = 'change/me' # Directory of output files
 
 temps = [3000,3500,4000,4500,5000,5500,6000]
 
