@@ -58,7 +58,7 @@ templates = targets
 ```
 
 And that's it ! Now just run `python3 dtemp_per_band.py`. 
-It should save all the computed data into `XXXX_DTEMP_bands.h5` files inside the output directory. 
+It should have saved all the computed data into `XXXX_DTEMP_bands.h5` files inside the output directory. 
 
 ## How to open and use the computed data ? 
 Output files are `.h5` files. 
