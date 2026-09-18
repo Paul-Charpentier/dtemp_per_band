@@ -51,7 +51,7 @@ bands = {
 }
 ```
 
-Then enter the list of targets you want this script to run on, and the list of corresponding template (usualy the same name as the target) : 
+Then enter the list of targets you want this script to run on, and the list of corresponding templates (usualy the same name as the targets) : 
 ```
 targets = ['AUMIC', 'EV_LAC', 'V1298TAU']
 templates = targets
