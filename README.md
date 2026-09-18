@@ -6,7 +6,7 @@ Not so much, just make sure you have all python packages that are on the 10 firs
 
 ## Get Started 
 
-Uneless you know what you are doing, the lines you might modify are lines 17 to 30. 
+Uneless you know what you are doing, the only lines you might modify are lines 17 to 30. 
 
 First define the path to the lbl reposotory :
 ```
