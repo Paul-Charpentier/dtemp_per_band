@@ -32,7 +32,7 @@ This directory should be organized as follow :
 Then define the directory where you want the output files to be stored.
 Put it wherever you want. 
 ```
-outdir = change/me # Directory of output files
+outdir = '/change/me' # Directory of output files
 ```
 
 Then define which dtemp vectors that will be computed. 
@@ -64,7 +64,7 @@ It should save all the computed data into `XXXX_DTEMP_bands.h5` files inside the
 Output files are `.h5` files. 
 You can open them using : 
 ```
-with h5py.File("PATH/TO/OUTPUT/FILES/AUMIC_DTEMP_bands.h5","r") as h5:
+with h5py.File("/PATH/TO/OUTPUT/FILES/AUMIC_DTEMP_bands.h5","r") as h5:
 
     dtemp = h5["dtemp"][:]
     sdtemp = h5["sdtemp"][:]
